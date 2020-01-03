@@ -35,9 +35,9 @@
 */
 -(void)viewDidAppear:(BOOL)animated
 {
-    ViewController *vc = [[ViewController alloc]init];
+   // ViewController *vc = [[ViewController alloc]init];
     
-     [self.navigationController pushViewController:vc animated:YES];
+    // [self.navigationController pushViewController:vc animated:YES];
     
     NSLog(@"%@",@"go 2 record");
 }

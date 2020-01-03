@@ -20,13 +20,13 @@
 	// Override point for customization after application launch.
     
     
-    ListViewController *listVC = [[ListViewController alloc]init];
+    //ListViewController *listVC = [[ListViewController alloc]init];
     
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:listVC];
+    //UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:listVC];
     
-    self.window.rootViewController = nav;
+   // self.window.rootViewController = listVC;
     
-    [self.window makeKeyAndVisible];
+    //[self.window makeKeyAndVisible];
     
 	return YES;
 }

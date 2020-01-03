@@ -32,6 +32,8 @@
 		session;
 		
 	});
+    
+
 	NSError *error = nil;
 	[self setupSessionInputs:&error];
 	
@@ -54,7 +56,7 @@
 	//创建视频预览层，用于实时展示摄像头状态
 	self.captureVideoPreviewLayer = ({
 		AVCaptureVideoPreviewLayer *previewLayer = [[AVCaptureVideoPreviewLayer alloc]initWithSession:self.captureSession];
-		previewLayer.frame=  CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+		previewLayer.frame=  CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-49);
 		previewLayer.videoGravity=AVLayerVideoGravityResizeAspectFill;//填充模式
 		[self.view.layer addSublayer:previewLayer];
 		self.view.layer.masksToBounds = YES;
