@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  VideoRecoderDemo
+//  iOSXGDemo
 //
-//  Created by Damon on 16/8/29.
-//  Copyright © 2016年 damonvvong. All rights reserved.
+//  Created by xugang on 2019/12/22.
+//  Copyright © 2019 xugang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

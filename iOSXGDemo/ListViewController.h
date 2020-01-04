@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ListViewController : UIViewController
+@interface ListViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) UITableView *tabview;
 
 @end
 
